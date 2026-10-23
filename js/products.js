@@ -9,7 +9,7 @@ const PRODUCTS = [
     corto: 'Taza celadón con borde blanco',
     desc: 'Luna en relieve estilo retro Nebula, apto para hacer manualidades de decoración de escritorio en el hogar como joyeros, moldes para velas, macetas para suculentas',
     detalles: [['Medidas', '7.7 cm de alto × 7.7 cm de diámetro'], ['Capacidad', '300 ml'], ['Acabado', 'Eleccion del Cliente'], ['Uso', 'Velas, Joyeria, Llaves, etc']],
-    img: '/assets/img/productos/Luna/Luna-1.png',
+    img: './assets/img/productos/Luna/Luna-1.png',
     art: { shape: 'botella', c1: '#2B4BA6', c2: '#182A66', drip: '#DDE6F5' }
   },
   {
@@ -17,7 +17,7 @@ const PRODUCTS = [
     corto: 'Jarrón de cuello largo en azul cobalto',
     desc: 'Torneado en una sola pieza y esmaltado con óxido de cobalto. El azul profundo se aclara hacia el cuello, donde el esmalte blanco cae en gotas irregulares.',
     detalles: [['Medidas', '28 cm de alto × 14 cm de diámetro'], ['Uso', 'Flores secas o frescas (tiene sellado interior)'], ['Acabado', 'Cobalto con esmalte blanco'], ['Cuidado', 'Lavar a mano con agua tibia']],
-    img: '/assets/img/productos/Navidad/img-navid-1.jpg',
+    img: './assets/img/productos/Navidad/img-navid-1.jpg',
     art: { shape: 'botella', c1: '#2B4BA6', c2: '#182A66', drip: '#DDE6F5' }
   },
   {

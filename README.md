@@ -16,10 +16,3 @@ js/cart.js              Carrito, dirección guardada y pedido por WhatsApp
 js/app.js               Rutas, eventos e inicio
 assets/                 Favicon e imágenes (assets/img/productos/)
 ```
-
-## Configuración rápida
-1. `js/config.js`: cambia `whatsapp` (código de país + número, solo dígitos).
-2. `js/products.js`: edita productos, precios y descripciones; agrega `img` para usar fotos.
-3. Sube la carpeta completa a cualquier hosting estático.
-
-Para probar en local puedes abrir `index.html` directamente o usar `python3 -m http.server`.

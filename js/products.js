@@ -9,7 +9,7 @@ const PRODUCTS = [
     corto: 'Taza celadón con borde blanco',
     desc: 'Luna en relieve estilo retro Nebula, apto para hacer manualidades de decoración de escritorio en el hogar como joyeros, moldes para velas, macetas para suculentas',
     detalles: [['Medidas', '7.7 cm de alto × 7.7 cm de diámetro'], ['Capacidad', '300 ml'], ['Acabado', 'Eleccion del Cliente'], ['Uso', 'Velas, Joyeria, Llaves, etc']],
-    img: './assets/img/productos/Luna/Luna-1.png',
+    img: '.assets/img/productos/Luna/Luna-1.png',
     art: { shape: 'botella', c1: '#2B4BA6', c2: '#182A66', drip: '#DDE6F5' }
   },
   {

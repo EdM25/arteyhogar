@@ -1,0 +1,78 @@
+/* Estilos propios. Tailwind se carga por CDN en index.html */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  background: #F2F4F1;
+  color: #172026;
+  -webkit-font-smoothing: antialiased;
+}
+
+.arch {
+  border-radius: 999px 999px 14px 14px;
+}
+
+:focus-visible {
+  outline: 2px solid #243C8C;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: #F2F4F1;
+}
+
+.field {
+  width: 100%;
+  border: 1px solid rgba(23, 32, 38, .25);
+  background: #fff;
+  border-radius: 10px;
+  padding: .65rem .8rem;
+  font-size: .95rem;
+}
+
+.field:focus {
+  outline: 2px solid #243C8C;
+  outline-offset: 1px;
+  border-color: #243C8C;
+}
+
+.field[aria-invalid="true"] {
+  border-color: #B42318;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rise {
+  animation: rise .9s cubic-bezier(.2, .7, .2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+.img {
+  width: 80px;
+}

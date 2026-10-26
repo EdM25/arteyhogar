@@ -55,7 +55,7 @@ function homeView() {
   return `
   <section class="mx-auto max-w-7xl px-5 pt-10 pb-16 sm:pt-16 grid lg:grid-cols-12 gap-10 items-center">
     <div class="lg:col-span-6">
-      <h1 class="text-5xl sm:text-6xl xl:text-7xl font-extrabold tracking-tight leading-[.98]">Cerámica hecha a mano, esmaltada una pieza a la vez</h1>
+      <h1 class="text-5xl sm:text-6xl xl:text-7xl font-extrabold tracking-tight leading-[.98]">Creamos arte para tu hogar con amor y dedicación.</h1>
       <p class="mt-6 text-xl text-tinta/75 font-serif leading-snug max-w-lg">Jarrones, Piezas de Ceramica, Velas Aromaticas, todo lo hacemos en nuestro taller. Arma tu pedido y envíalo por WhatsApp: coordinamos el pago y el envío contigo.</p>
       <div class="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
         <a href="#/coleccion" class="rounded-full bg-cobalto hover:bg-cobalto-oscuro text-white px-8 py-4 font-bold">Ver la colección</a>

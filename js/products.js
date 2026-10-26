@@ -6,16 +6,16 @@
 const PRODUCTS = [
   {
     id: 'taza-alba', nombre: 'Luna en relieve', cat: 'Adornos', precio: 2500, bg: '#DDE8E1',
-    corto: 'Taza celadón con borde blanco',
+    corto: 'Luna en Relieve Estilo Nebula',
     desc: 'Luna en relieve estilo retro Nebula, apto para hacer manualidades de decoración de escritorio en el hogar como joyeros, moldes para velas, macetas para suculentas',
     detalles: [['Medidas', '7.7 cm de alto × 7.7 cm de diámetro'], ['Capacidad', '300 ml'], ['Acabado', 'Eleccion del Cliente'], ['Uso', 'Velas, Joyeria, Llaves, etc']],
     img: 'assets/img/productos/Luna/Luna-1.png',
     art: { shape: 'botella', c1: '#2B4BA6', c2: '#182A66', drip: '#DDE6F5' }
   },
   {
-    id: 'jarron-marea', nombre: 'Jarrón Marea', cat: 'Sección Navideña', precio: 76, bg: '#DCE3F3',
-    corto: 'Jarrón de cuello largo en azul cobalto',
-    desc: 'Torneado en una sola pieza y esmaltado con óxido de cobalto. El azul profundo se aclara hacia el cuello, donde el esmalte blanco cae en gotas irregulares.',
+    id: 'jarron-marea', nombre: 'Adorno Santa Claus', cat: 'Sección Navideña', precio: 22000, bg: '#DCE3F3',
+    corto: 'Pieza Navideña de Santa Claus para Adornar el Hogar',
+    desc: 'Añade un toque elegante y acogedor a tu decoración navideña con esta hermosa figura artesanal de Santa Claus. Con un diseño clásico estilo nórdico, destaca por su túnica azul petróleo con destellos brillantes y acabados tipo piel en tono crema.',
     detalles: [['Medidas', '28 cm de alto × 14 cm de diámetro'], ['Uso', 'Flores secas o frescas (tiene sellado interior)'], ['Acabado', 'Cobalto con esmalte blanco'], ['Cuidado', 'Lavar a mano con agua tibia']],
     img: 'assets/img/productos/Navidad/img-navid-1.jpg',
     art: { shape: 'botella', c1: '#2B4BA6', c2: '#182A66', drip: '#DDE6F5' }
